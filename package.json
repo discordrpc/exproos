@@ -1,0 +1,44 @@
+{
+  "name": "exproos",
+  "version": "1.0.0",
+  "description": "Express framework built to accommodate OOP style programming.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "lint": "eslint src tests --ext ts --fix",
+    "format": "prettier --write \"{src,tests}/**/*.ts\"",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/discordrpc/exproos.git"
+  },
+  "keywords": [],
+  "author": "discordrpc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/discordrpc/exproos/issues"
+  },
+  "homepage": "https://github.com/discordrpc/exproos#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.15",
+    "@typescript-eslint/eslint-plugin": "^5.48.1",
+    "@typescript-eslint/parser": "^5.48.1",
+    "eslint": "^8.31.0",
+    "prettier": "^2.8.2",
+    "typescript": "^4.9.4",
+    "vite": "^4.0.4",
+    "vitest": "^0.27.0"
+  },
+  "files": [
+    "dist/"
+  ]
+}

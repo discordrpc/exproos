@@ -1,0 +1,9 @@
+# Ignore packages and IDE configs
+node_modules/
+.vs/
+
+# Ignore package-lock
+package-lock.json
+
+# Ignore distribution folder
+dist/
