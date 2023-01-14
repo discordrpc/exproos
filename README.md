@@ -1,6 +1,6 @@
 > **Warning**
 >
-> This project is currently under **heavy** development and will likely not work.
+> This project is currently under **heavy** development and does not work.
 
 <div align="center">
 
