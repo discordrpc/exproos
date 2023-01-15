@@ -8,10 +8,11 @@
     "doc": "docs"
   },
   "scripts": {
-    "lint": "eslint src tests --ext ts --fix",
+    "lint": "eslint src --ext ts --fix",
     "format": "prettier --write \"{src,tests}/**/*.ts\"",
     "test": "vitest run",
     "test:watch": "vitest",
+    "start": "node .",
     "build": "tsc"
   },
   "repository": {
