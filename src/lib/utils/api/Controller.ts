@@ -26,10 +26,7 @@ export class Controller {
       let route = app.route(path);
 
       for (let middleware of middlewares) {
-        if (middleware.all) {
-          handlers.all.push(middleware.all);
-          continue;
-        }
+        if (middleware.all) handlers.all.push(middleware.all);
         if (middleware.post) handlers.post.push(middleware.post);
         if (middleware.get) handlers.get.push(middleware.get);
         if (middleware.put) handlers.put.push(middleware.put);
