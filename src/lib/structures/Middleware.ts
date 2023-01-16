@@ -23,7 +23,7 @@ export class Middleware {
    *
    * @param {number} priority - The priority of the middleware
    * @param {...string} path - The path(s) the middleware is invoked by
-   * 
+   *
    * @since 1.0.0
    */
   constructor(priority: number, ...path: string[]);
